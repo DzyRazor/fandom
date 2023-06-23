@@ -30,34 +30,44 @@ body {
 .copy--secondary {
     color: var(--color-secondary);
     font-family: 'Courier New', Courier, monospace;
-    font-size: 28px;
+    font-size: 30px;
 
 }
 
 .copy--text {
     color: var(--color-secondary);
-    font-size: 18px;
+    font-size: 22px;
 }
 
 .copy--text2 {
     color:  #23e823;
-    font-size: 15px;
+    font-size: 20px;
 } 
 
 .navbar {
     display: block;
     position: absolute;
-    top: 20px;
-    left: 3px;
-    padding: 0rem;
-    width: 49vw;
-    height: 15rem;
-    border-color: violet;
+    top: 25px;
+    left: 5px;
+    padding: 1rem;
+    width: 52vw;
+    height: 22rem;
+    border-color: gold;
     border-style: outset;
     border-width: 5px;
     background: border-box;
 }
-    
+  
+.background--imag1 {
+    background-color: black;
+    width: 100%;
+    object-position: center;
+    border-top: solid;
+    border-bottom: solid;
+    border-color: tomato;
+    border-width: 1rem;
+}
+
 .background--imag {
     background-color: black;
     width: 100%;
@@ -81,13 +91,14 @@ body {
 }
 
 .name__subname {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 280;
     text-transform: uppercase;
 }
 
 .som {
     font: bold;
+    font-size: 2rem;
 }
 
 .div__pillar {
@@ -103,17 +114,17 @@ h1 {
     
 h2 {
     font-family: serif;
-    color: #d622be;
+    color: gold;
     text-align: center;
     animation: animate 1.8s linear infinite;
-    text-shadow: 12px 10px 20px #0ed647b5;
+    text-shadow: 12px 10px 20px #00ff48;
 } 
     
 @keyframes animate {
     0%{
     opacity: 0;
     }
-    50%{
+    30%{
     opacity: 10;
     }
     100%{
@@ -125,7 +136,7 @@ h2 {
     position: absolute; 
     left: 73%; 
     margin-left: 10px; 
-    top: 38%; 
+    top: 25%; 
     margin-top: -98px; 
     width:19%; 
     height: 71%; 
@@ -133,7 +144,7 @@ h2 {
 }
 
 p {
-    margin-block-start: 0rem;
+    margin-block-start: 3.5rem;
     margin-block-end: 0rem;
     margin-inline-start: 5px;
     margin-inline-end: 0px;
@@ -142,8 +153,8 @@ p {
 
 iframe {
     position: relative;
-    top: 2rem;
-    left: 1rem;
+    top: 14.50rem;
+    left: 1.25rem;
     border-color: gold;
     border-style: outset;
     border-width: 10px;
@@ -155,50 +166,48 @@ iframe {
     background: padding-box;
     display: grid;
     justify-content: center;
-    top: -1.5rem;
-    margin-bottom: 1.5rem;
-    
+    top: -12.5rem;
 }
 
 .partitura {
     position: absolute;
-    top: -2.75rem;
-    left: 9.25rem;
+    top: 0.25rem;
+    left: 10.25rem;
     opacity: 90%;
 }
 
 .personalidade {
     font-family: Tahoma;
-    font-size: medium;
+    font-size: 25px;
     font: bold;
     color: gold;
     display: block;
     background-color: black;
-    padding-top: 1rem;
-    padding-left: 2rem;
-    height: 9rem;
+    padding-top: 0rem;
+    padding-left: 1rem;
+    height: 18rem;
 }
 
 .feito {
     font-family: Tahoma;
-    font-size: medium;
+    font-size: 22px;
     color: gold;
     display: block;
     background-color: black;
     padding-top: 1rem;
-    padding-left: 2rem;
-    height: 4rem;
+    padding-left: 1rem;
+    
 }
 
 .espadas {
     font-family: Tahoma;
-    font-size: medium;
+    font-size: 22px;
     color: gold;
     display: block;
     background-color: black;
-    padding-top: 1rem;
-    padding-left: 2rem;
-    height: 4rem;
+    padding-top: 0rem;
+    padding-left: 1rem;
+    height: 6rem;
 }
 
 .nichirin {
